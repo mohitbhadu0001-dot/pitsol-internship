@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Fill all The the Information</h1>
+            <a href="index.html">Home</a>   |   <a href="applications.html">applications</a>   |  <a href="contact.html">contact</a>  |  
+            
+            <a href="registration.html"> registration</a>
+        </nav>
+    </header>
+
+        <main>
+
+        <section id="info">
+            <form action="" method="post"></form>
+
+            <label for="name">Name   </label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name" required><br>
+
+            <label for="fatherName">Father Name</label>
+            <input type="text" name="fatherName" id="fatherName" placeholder="Enter Father Name" required><br>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male"><br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female"><br>
+                <label for="other">other</label>
+                <input type="radio" name="gender" id="other" value="other"><br>
+            </fieldset>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter the Email" required><br>
+
+            <label for="mobileNo">Mobile Number</label>
+            <input type="tel" name="mobileNo" id="mobileNo" pattern="[0-9]{10}" maxlength="10" required><br>
+
+
+            <label for="10th">10th Percantage</label>
+            <input type="number" name="10th" id="10th" placeholder="Enter the 10th Percantage" required><br>
+            <label for="12th">12th Percantage</label>
+            <input type="number" name="12th" id="12th" placeholder="Enter the 12th Percantage" required><br>
+
+            <label for="graduate">Graguation</label>
+            <input type="text" name="graduate" id="graduate" placeholder="Enter the graduation" required><br>
+            
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4">yours message</textarea><br>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+        </main>
+        <footer>
+            <p>Thanks for visiting us
+                </p>
+            </footer>
+    
+</body>
+</html>
