@@ -37,3 +37,4 @@ Today I worked on styling existing web pages using CSS and created a new Service
 - Practiced reusable CSS styling and CSS variables.
 - Learned to style tables and service cards.
 - Practiced basic keyboard accessibility and focus styling.
+ 
