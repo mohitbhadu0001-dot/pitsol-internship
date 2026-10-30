@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Budget Calculator</title>
+</head>
+<body>
+
+    <script>
+        const learners=18;
+        const kitPacking=45;
+        const activityMaterials=90;
+        const refreshments=55;
+        const roomCharge=2800;
+        const coupon=500;
+
+        console.log("Number of learner : "+learners);
+
+        console.log("kitPacking learner : "+kitPacking);
+
+        console.log("Activity materials  learner : ", activityMaterials);
+
+        console.log("Refreshments learner : "+refreshments);
+
+        console.log("Room charge : "+roomCharge);
+
+        console.log("Coupon discount:"+coupon);
+
+        const perLearnerCost=kitPacking+activityMaterials+refreshments;
+
+        const variableLearnerCost=learners*perLearnerCost;
+
+        const subTotal=variableLearnerCost+roomCharge;
+
+        const discountAmount=subTotal-coupon;
+
+        const tax=discountAmount*0.25;
+
+        const finalBudget=discountAmount+tax;
+
+        console.log("Per Learner Cost "+perLearnerCost);
+        console.log("Variable Cost "+variableLearnerCost);
+        console.log("Subtotal "+subTotal);
+        console.log("Discount "+coupon);
+        console.log("Tax "+tax);
+        console.log("Final Budget "+finalBudget);
+
+
+
+    </script>
+    
+</body>
+</html>
